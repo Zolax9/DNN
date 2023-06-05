@@ -1,0 +1,7 @@
+.etc/
+bin/debug/DNN-debug
+bin/release/DNN-release
+obj/debug/*
+obj/release/*
+build.sh
+setup.sh
