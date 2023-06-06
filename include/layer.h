@@ -3,7 +3,7 @@
 
 typedef struct layer
 {
-    unsigned int size;
+    const unsigned int size;
     float* nodes;
 } layer;
 
