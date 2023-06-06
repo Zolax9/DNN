@@ -10,5 +10,6 @@ void nn_forward_propagate(layer* inp_layer, layer* out_layer, float weights[][in
         {
             out_layer->nodes[i] += inp_layer->nodes[j] * weights[i][j];
         }
+        out_layer->nodes[i] /= inp_layer->size;
     }
 };
