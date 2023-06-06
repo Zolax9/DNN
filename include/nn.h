@@ -4,6 +4,8 @@
 #include <stddef.h>
 #include <stdlib.h>
 
-float* nn_forward_propagate(float* inp_layer, unsigned int inp_size, unsigned int out_size, float* weights);
+#include "layer.h"
+
+void nn_forward_propagate(layer* inp_layer, layer* out_layer, float* weights);
 
 #endif
