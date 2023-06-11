@@ -1,5 +1,4 @@
 #include "nn.h"
-#include <stdio.h>
 
 void nn_forward_propagate(layer* inp_layer, layer* out_layer, float weights[][inp_layer->size])
 {
